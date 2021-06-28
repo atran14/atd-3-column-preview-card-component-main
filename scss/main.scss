@@ -44,6 +44,7 @@ body {
     overflow: hidden;
 
     @include small-devices-850 {
+      max-width: 75vh;
       flex-direction: column;
       min-height: none;
     }
